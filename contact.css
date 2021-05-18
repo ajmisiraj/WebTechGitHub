@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact{
+  background: url(https://wallpapercave.com/wp/XhbdFr6.jpg) no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact h1{
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: 00c2cb;
+  margin: 40px auto;
+}
+
+.form{
+  max-width: 500px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #F0F8FF;
+  transition:1s;
+}
+.form-text:focus{
+  box-shadow: 0 0 4px 2px #00c2cb;
+}
+textarea.form-text{
+  resize: none;
+  height: 120px;
+}
+.form-btn{
+  float: right;
+  border: 0;
+  background: #00c2cb;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.form-btn:hover{
+  background: #293039;
+}
+.reachus
+{
+  background:url(https://cdn.wallpapersafari.com/35/27/T2tDC7.jpg);
+  background-size: cover;
+  text-align:center;
+  font-style:bold;
+}
