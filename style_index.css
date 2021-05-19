@@ -238,3 +238,9 @@ body{
     100% {background-color:#2ecc71; left:0px; top:0px;}
 }
 
+.footer table{
+    border-spacing: 10px;
+    width: 100%;
+    background-color: #00c2cb;
+    font-size: 20px;
+}
