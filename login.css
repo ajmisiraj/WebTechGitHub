@@ -111,3 +111,10 @@ body{
     height: 65px;
     border-radius: 8px
 }
+.back_b{
+        margin: 0;
+        position: absolute;
+        top: 75%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
