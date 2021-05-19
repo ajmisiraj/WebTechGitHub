@@ -1,25 +1,117 @@
 
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PaperCaves HomePage</title>
-    <link rel="stylesheet" href="style_index.css">
-</head>
-<body>
-    <div class="header">
-        <img src="img/BookStoreLogo.jpg" alt="Logo" class="logo">
-        <pre> <a href="login.html">Login</a>  <a href="signup.html">SignUp</a> </pre>
-    </div>
-    <div class="name">
-        <form>
-            <h1>Paper Caves</h1>
-            <h3>A Collection you'll Love</h3>
-            <div class="form-box">
-                <input type="text" class="search-field business" placeholder="Search you book here ...">
-                <button class="search-btn" type="button">Search</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PaperCaves HomePage</title>
+        <link rel="stylesheet" href="style_index.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="img/BookStoreLogo.jpg" alt="Logo" class="logo">
+            <pre> <a href="myaccount.html">My Account</a>  <a href="login.html">Login</a>  <a href="signup.html">SignUp</a> </pre>
+        </div>
+        <div class="name">
+            <form>
+                <h1>Paper Caves</h1>
+                <h3>A Collection you'll Love</h3>
+                <div class="form-box">
+                    <input type="text" class="search-field business" placeholder="Search your book here ...">
+                    <button class="search-btn" type="button">Search</button>
+                </div>
+            </form>
+        </div>
+        <br> <br>
+        <div class="ctgry">
+            <h1>Categories</h1>
+            <h3>
+            <ul>
+                <li><a href="novel.html">Novel</a></li><br>
+                <li><a href="mystery.html">Mystery/Thriller</a></li><br>
+                <li><a href="fiction.html">Science fiction</a></li><br>
+                <li><a href="fantasy.html">Fantasy</a></li><br>
+                <li><a href="children.html">Children</a></li><br>
+                <li><a href="biography.html">Biography</a></li><br>
+                <li><a href="technology.html">Technology</a></li><br>
+            </ul></h3>
+        </div>
+        <div class="Side">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 2 </div>
+                  <img src="img/book1.jpg" alt="Book1" style="width:100%">
+                  
+                  <div class="text"><h3><a href="#ref">Buy Now</a></h3></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 2 </div>
+                  <img src="img/book2.jpg" alt="Book2" style="width:100%">
+                  <div class="text"><h3><a href="#ref">Buy Now</a></h3></div>
+                </div>
+                
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
             </div>
-        </form>
-    </div>
+            <br>
+                
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+            </script>    
+        </div>
+        <br>
+        <div class="offers">
+            <br>
+            <table border="4" bordercolor=#00c2cb>
+                <caption><h3>Offers</h3></caption>
+                <tr>
+                    <th>Category</th>
+                    <th>Discount</th>
+                </tr>
+                <tr>
+                    <td> Children</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Fantacy</td>
+                    <td>10%</td>
+                </tr>
+            </table>  
+        </div>   
+    </body>
 </html>
+    

@@ -19,7 +19,6 @@ body{
     background: #00c2cb;
     font-size: 20px;
 }
-
 .name
 {
     height: 70vh;
@@ -81,3 +80,161 @@ body{
     background: rgb(0, 0, 0, 0.5);
     padding: 20px;
 }
+.ctgry{
+    background-color: #00c2cb;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #293039;
+    float: right;
+    margin-right: 100px;
+    font-family: "Times New Roman", Times, serif;
+    font-family: "Copperplate", fantasy;
+    border-radius: 24px;
+}
+.ctgry h3{
+    font-family: sans-serif;
+    color: #c3edef;  
+}
+.ctgry a{
+    cursor: pointer;
+}
+
+/*body {font-family: Verdana, sans-serif; margin:0}*/
+.mySlides {display: none}
+.side img {vertical-align: middle;}
+
+.side{
+    float: left;
+    margin-left: 50px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 0px;
+  color: #293039;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  font-size: 15px;
+  padding: 8px 0px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #293039;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.offers{
+    float: right;
+    margin-right: 120px;
+}
+.offers caption{
+    text-align: center;
+    color: #293039;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse; 
+    animation-iteration-count: infinite;
+
+}
+.offers table{
+    color:#c3edef;
+}
+
+.offers th{
+    font-size: 23px;
+    font-family: "Papyrus", fantasy;
+    padding: 10px;
+}
+.offers td{
+    padding: 10px;
+    font-size: 20px;
+}
+@keyframes example {
+    0%   {background-color:#2ecc71; left:0px; top:0px;}
+    50%  {background-color:#3498db; left:200px; top:0px;}
+    100% {background-color:#2ecc71; left:0px; top:0px;}
+}
+
