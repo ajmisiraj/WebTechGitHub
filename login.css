@@ -59,3 +59,55 @@ body{
 .details{
     color:#c3edef;
 }
+.outer{
+    margin: 15px;
+    background: #293039;
+    height: 500px;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    align-content:flex;
+    text-align: center;
+    font-size: large;
+    color: rgb(2, 2, 68);
+    font-family:cursive;
+}
+.b1{
+    background: #c3edef;
+    height: 15%;
+    width: 20%;
+    float: left;
+    margin: 10px;
+}
+.b2{
+    background:#c3edef;
+    height: 15%;
+    width: 20%;
+    float: left;
+    margin: 10px;
+    
+}
+.b3{
+    background:#c3edef;
+    height: 15%;
+    width: 20%;
+    float:left;
+    margin: 10px;
+}
+.b4{
+    background: #c3edef;
+    height: 15%;
+    width: 20%;
+    float: left;
+    margin: 10px;
+}
+.sub_logo{
+    display:flex; 
+    float: left;
+    margin:5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 8px
+}
