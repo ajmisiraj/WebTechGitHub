@@ -63,8 +63,11 @@ textarea.form-text{
 }
 .reachus
 {
-  background:url(https://cdn.wallpapersafari.com/35/27/T2tDC7.jpg);
+  background:#293039;
+  color: #c3edef;
   background-size: cover;
   text-align:center;
   font-style:bold;
 }
+
+
