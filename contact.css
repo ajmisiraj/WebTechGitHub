@@ -6,11 +6,13 @@
 .contact{
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(img/home.jpg);;
   background-size: cover;
-  padding: 40px 0;
+  padding: 100px 0;
+  
 }
 .contact h1{
   text-align: center;
   color: #c3edef;
+ 
 }
 .border{
   width: 100px;

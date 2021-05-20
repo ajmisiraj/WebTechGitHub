@@ -9,11 +9,6 @@ body {
   margin: 0;
 }
 
- {
- 
-  box-sizing: border-box;
-}
-
 .logo{
     display: block; 
     float: left;
