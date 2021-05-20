@@ -3,12 +3,8 @@ body {
   font-family: Arial;
   font-size: 17px;
   padding:8px;
-}
-
-* {
-
   box-sizing:content-box;
-
+  background: #a9ceec;
 }
 
 .container 
@@ -58,52 +54,34 @@ label {
 }
 .btn
 {
-  background-color: #4CAF50;
-
+  background-color: #2196F3;
   color: white;
-
   padding: 12px;
-
   margin: 10px 0;
-
   border: none;
-
   width: 100%;
-
-  border-radius: 3px;
-
+  border-radius: 50px;
   cursor: pointer;
-
   font-size: 17px;
 
 }
 
 .btn:hover {
 
-  background-color: #45a049;
+  background-color: #07b595;
 
 }
-
-
-
 a {
 
   color: #2196F3;
-
 }
-
-
-
 hr {
-
   border: 1px solid lightgrey;
-
 }
 
 span.price {
 
   float: right;
-
   color: black;
 
 }
