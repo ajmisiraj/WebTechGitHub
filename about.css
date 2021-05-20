@@ -19,16 +19,11 @@ body {
     height: 80px;
     border-radius: 8px;
 }
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color:#0000A0;
-  color: white;
-}
+
 .about {
   padding: 100px;
   text-align: justify;
-  color: black;
+  color: #c3edef;
   font-size:19px;
 }
 
