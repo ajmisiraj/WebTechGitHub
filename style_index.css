@@ -115,11 +115,6 @@ body{
   border-radius: 50%;
   background-color: #2ecc71;
   position: relative;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-direction: reverse; 
-  animation-iteration-count: infinite;
-
 }
 .offers table{
   color:#c3edef;
@@ -134,12 +129,6 @@ body{
   padding: 10px;
   font-size: 20px;
 }
-@keyframes example {
-  0%   {background-color:#2ecc71; left:0px; top:0px;}
-  50%  {background-color:#3498db; left:200px; top:0px;}
-  100% {background-color:#2ecc71; left:0px; top:0px;}
-}
-
 .footer table{
   border-spacing: 10px;
   width: 100%;
